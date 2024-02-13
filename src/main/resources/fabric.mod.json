@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "modyes",
+  "version": "${version}",
+  "name": "ModYes",
+  "description": "nothing~",
+  "authors": [
+    "lzy"
+  ],
+  "contact": {
+    "website": "https://lzytechtip.github.io/",
+    "repo": "https://github.com/lzytechtip/modyes"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/modyes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.modyes.modyes.client.ModYesClient"
+    ],
+    "main": [
+      "com.modyes.modyes.ModYes"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
