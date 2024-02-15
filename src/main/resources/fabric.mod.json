@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.modyes.ModYes"
+			"com.modyes.YesMod"
 		],
 		"client": [
-			"com.modyes.ModYesClient"
+			"com.modyes.YesClient"
 		]
 	},
 	"mixins": [
