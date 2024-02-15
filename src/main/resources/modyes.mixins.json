@@ -3,7 +3,7 @@
 	"package": "com.modyes.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+      "YesMaxin"
 	],
 	"injectors": {
 		"defaultRequire": 1
